@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+a{
+	text-decoration: none;
+	color: aliceblue;
+	margin-bottom: 50px;
+}
+a img{
+	margin-left: 600px;
+}
+nav{
+	float: left;
+	width: 150px;
+	height: 950px;
+	color: aliceblue;
+	margin-left: -20px;
+	margin-top: -20px;
+	background-image: url("../image/brickwall.jpg");
+	background-size: 50%;
+	
+}
+
+
+nav li{
+	list-style-type:none;
+	font-family: 'Common Pixel', sans-serif;
+	margin-left: -25px;
+}
+nav h2{
+	padding-left: 20px;
+	font-family: 'Common Pixel', sans-serif;
+	text-justify: inter-word;
+}
+
+article{
+	width: 400px;
+	margin-left: 20px;
+	font-family: 'Common Pixel', sans-serif;
+	color: aliceblue;
+}
+body{
+	background-image: url("../image/brickwall2.jpg");
+	background-size: 5%;
+}
+.maincontent{
+	margin-left: 200px;
+	
+}
+.justmovealittlebit{
+	padding-left: 55px;
+}
+.book{
+	margin-left: 200px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.3);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+    zoom: 1;
+	list-style-type: none;
+	overflow: hidden;
+}
+.book div{
+			float: left;
+			margin-left: 100px;
+			margin-top: 35px;
+			
+}
+
+.book img {
+    background-color: rgba(255,250,251,0.00);
+    border-width: 5px;
+    border-style:solid; 
+	border-image: url("../image/_Color_Black.png")100 rounds;
+	display: block;
+	width: 140px; height:224px;
+	
+}
+footer{
+	margin-left: 465px;
+	font-family: 'Common Pixel', sans-serif;
+	color: aliceblue;
+}
